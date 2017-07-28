@@ -1,10 +1,10 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 
-import reader from './reducers/reader';
-import options from './reducers/options';
-import windowState from './reducers/windowState';
-import tab from './reducers/tab';
+import reader from './app/reducers/reader';
+import options from './app/reducers/options';
+import windowState from './app/reducers/windowState';
+import tab from './app/reducers/tab';
 
 function configureStore() {
   const appReducers = combineReducers({
