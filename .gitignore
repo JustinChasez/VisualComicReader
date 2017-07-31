@@ -5,6 +5,7 @@ static
 node_modules
 npm-debug.log
 
+src/renderer/configFirebase.js
 dist
 index.html
 tmp
