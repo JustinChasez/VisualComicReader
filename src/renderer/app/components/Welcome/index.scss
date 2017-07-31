@@ -3,5 +3,25 @@
   padding: 16px;
   p {
     margin: 0;
+    &.description {
+      font-size: 14px;
+    }
+    &.info {
+      font-size: 12px;
+    }
+  }
+  .buttons {
+    display: flex;
+    padding: 10px 0;
+    button {
+      margin-right: 20px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: #909090;
+      &:hover {
+        color: white;
+      }
+    }
   }
 }
